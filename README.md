@@ -12,10 +12,12 @@ This C function will communicate wit Matlab through a Mex function.
 Given a set of `k` points (x<sub>i</sub>, y<sub>i</sub>) and `n` the degree of the polynomial we want to use to approximate the points, the 
 problem we want to solve is:
 
-y<sub>i</sub> = a<sub>n</sub>x<sub>i</sub><sup>n</sup> + a<sub>n-1</sub>x<sub>i</sub><sup>n-1</sup> + ... + 
-a<sub>2</sub>x<sub>i</sub><sup>2</sup> + a<sub>1</sub>x<sub>i</sub> + a<sub>0</sub>
+ <img src="images/expression.png" width="500" />
+<!--y<sub>i</sub> = a<sub>n</sub>x<sub>i</sub><sup>n</sup> + a<sub>n-1</sub>x<sub>i</sub><sup>n-1</sup> + ... + 
+a<sub>2</sub>x<sub>i</sub><sup>2</sup> + a<sub>1</sub>x<sub>i</sub> + a<sub>0</sub>-->
 
 As a system of linear equations `Ax=b`:
+
  <img src="images/matrix.png" width="500" />
 
 This system will normally be over or underdetermined, as the degree of the polynomial used does not have to be equal to the number of points 
