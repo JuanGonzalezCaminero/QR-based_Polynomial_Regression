@@ -17,11 +17,11 @@ a<sub>2</sub>x<sub>i</sub><sup>2</sup> + a<sub>1</sub>x<sub>i</sub> + a<sub>0</s
 
 As a system of linear equations `Ax=b`:
 ```
-[x₁ⁿ x₁ⁿ⁻¹ x₁² x₁ 1]   [aₙ]   [y₁]
-[x₂ⁿ x₂ⁿ⁻¹ x₂² x₂ 1]   [aₙ₋₁]   [y₂]
-[... ... ... ... ... ...] * [...] = [...]
-[xₖ₋₁ⁿ xₖ₋₁ⁿ⁻¹ ... xₖ₋₁² xₖ₋₁> 1]   [a₁]   [yₖ₋₁]
-[xₖⁿ xₖⁿ⁻¹ ... xₖ² xₖ 1]   [a₀]   [yₖ]
+[x₁ⁿ    x₁ⁿ⁻¹   ...   x₁²    x₁     1   ]    [aₙ]     [y₁]
+[x₂ⁿ    x₂ⁿ⁻¹   ...   x₂²    x₂     1   ]    [aₙ₋₁]    [y₂]
+[...   ...     ...   ...    ...   ... ] *  [...] =  [...]
+[xₖ₋₁ⁿ   xₖ₋₁ⁿ⁻¹  ...   xₖ₋₁²   xₖ₋₁    1   ]    [a₁]     [yₖ₋₁]
+[xₖⁿ    xₖⁿ⁻¹   ...   xₖ²    xₖ     1   ]    [a₀]     [yₖ]
 ```
 
 This system will normally be over or underdetermined, as the degree of the polynomial used does not have to be equal to the number of points 
