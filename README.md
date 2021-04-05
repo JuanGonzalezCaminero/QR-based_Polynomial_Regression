@@ -5,7 +5,7 @@ The goal of this project is to produce a C function that receives a set of point
 of the polynomial we want to approximate the points with, and returns the n coefficients of said polynomial that minimize the sum of squares 
 of the residuals.
 
-This C function will communicate wit Matlab through a Mex function.
+This C function will communicate with Matlab through a Mex function.
 
 ## Method used
 
