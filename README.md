@@ -17,11 +17,11 @@ a<sub>2</sub>x<sub>i</sub><sup>2</sup> + a<sub>1</sub>x<sub>i</sub> + a<sub>0</s
 
 As a system of linear equations `Ax=b`:
 ```
-[x<sub>1</sub><sup>n</sup> x<sub>1</sub><sup>n-1</sup> x<sub>1</sub><sup>2</sup> x<sub>1</sub> 1]   [a<sub>n<sub>]   [y<sub>1</sub>]
-[x<sub>2</sub><sup>n</sup> x<sub>2</sub><sup>n-1</sup> x<sub>2</sub><sup>2</sup> x<sub>2</sub> 1]   [a<sub>n-1<sub>]   [y<sub>2</sub>]
+[x₁ⁿ x₁ⁿ⁻¹ x₁² x₁ 1]   [aₙ]   [y₁]
+[x₂ⁿ x₂ⁿ⁻¹ x₂² x₂ 1]   [aₙ₋₁]   [y₂]
 [... ... ... ... ... ...] * [...] = [...]
-[x<sub>k-1</sub><sup>n</sup> x<sub>k-1</sub><sup>n-1</sup> ... x<sub>k-1</sub><sup>2</sup> x<sub>k-1</sub> 1]   [a<sub>1<sub>]   [y<sub>k-1</sub>]
-[x<sub>k</sub><sup>n</sup> x<sub>k</sub><sup>n-1</sup> ... x<sub>k</sub><sup>2</sup> x<sub>k</sub> 1]   [a<sub>0<sub>]   [y<sub>k</sub>]
+[xₖ₋₁ⁿ xₖ₋₁ⁿ⁻¹ ... xₖ₋₁² xₖ₋₁> 1]   [a₁]   [yₖ₋₁]
+[xₖⁿ xₖⁿ⁻¹ ... xₖ² xₖ 1]   [a₀]   [yₖ]
 ```
 
 This system will normally be over or underdetermined, as the degree of the polynomial used does not have to be equal to the number of points 
