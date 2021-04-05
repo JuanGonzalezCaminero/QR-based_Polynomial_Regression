@@ -23,6 +23,6 @@ As a system of linear equations `Ax=b`:
 This system will normally be over or underdetermined, as the degree of the polynomial used does not have to be equal to the number of points 
 in the set.
 
-In order to solve it, we calculate the QR decomposition of A (A=QR), and then x = R<sup>-1</sup>Q<sup>t</<sup>b
+In order to solve it, we calculate the QR decomposition of A (A=QR), and then x = R<sup>-1</sup>Q<sup>t</sup>b
 
 
