@@ -16,6 +16,7 @@ y<sub>i</sub> = a<sub>n</sub>x<sub>i</sub><sup>n</sup> + a<sub>n-1</sub>x<sub>i<
 a<sub>2</sub>x<sub>i</sub><sup>2</sup> + a<sub>1</sub>x<sub>i</sub> + a<sub>0</sub>
 
 As a system of linear equations `Ax=b`:
+
  <img src="images/matrix.png" width="500" />
 
 This system will normally be over or underdetermined, as the degree of the polynomial used does not have to be equal to the number of points 
