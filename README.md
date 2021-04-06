@@ -5,7 +5,7 @@ The goal of this project is to produce a C function that receives a set of point
 of the polynomial we want to approximate the points with, and returns the n coefficients of said polynomial that minimize the sum of squares 
 of the residuals.
 
-This C function will communicate wit Matlab through a Mex function.
+This C function will communicate with Matlab through a Mex function.
 
 ## Method used
 
@@ -23,6 +23,6 @@ As a system of linear equations `Ax=b`:
 This system will normally be over or underdetermined, as the degree of the polynomial used does not have to be equal to the number of points 
 in the set.
 
-In order to solve it, we calculate the QR decomposition of A (A=QR), and then x = R<sup>-1</sup>Q<sup>t</<sup>b
+In order to solve it, we calculate the QR decomposition of A (A=QR), and then x = R<sup>-1</sup>Q<sup>t</sup>b
 
 
