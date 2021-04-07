@@ -1,21 +1,14 @@
 
-function [sol]=ajusta_con_qr()
-    axis([0 1 0 1]);
-    [x,y]=ginput();
-    %plot(x,y,'*')
-    
-    for grado=1:7
+function [sol]=qr_polynomial_regression_matlab(x, y, n)
+
         M=[];
-        for i=0:grado
-            M(:,grado+1-i)=x.^i;
+        for i=0:n
+            M(:,n+1-i)=x.^i;
         end
         
         [Q,R]=qr(M);
     
         sol=R\(Q'*y);
-        
-        disp("Coeficientes del polinomio de grado " + grado + " generado:")
-        sol
         
         %Para plottear la curva generada y nuestros puntos
         xp=0:0.01:1;
