@@ -41,6 +41,6 @@ The function qr_polynomial_regression_c takes three arguments:
 
 * The x coordinates of the points, in a column vector.
 * The y coordinates of the points, in a column vector.
-* THe degree of the polynomial we want to approximate the points with.
+* The degree of the polynomial we want to approximate the points with.
 
 The return value will be a vector of length the chosen degree which contains the coefficients of the polynomial.
