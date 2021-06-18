@@ -26,4 +26,21 @@ in the set.
 
 In order to solve it, we calculate the QR decomposition of A (`A = QR`), and then `Rx = Qᵗb`
 
+## Compiling the program
 
+In order to compile the program, from Matlab, run the following:
+```
+blaslib = fullfile(matlabroot, 'bin', computer('arch'),'libmwblas.so');
+lapacklib = fullfile(matlabroot, 'bin', computer('arch'),'libmwlapack.so');
+mex qr_polynomial_regression_c.c -lmwlapack -lmwblas
+```
+
+## Usage
+
+The function qr_polynomial_regression_c takes three arguments:
+
+* The x coordinates of the points, in a column vector.
+* The y coordinates of the points, in a column vector.
+* THe degree of the polynomial we want to approximate the points with.
+
+The return value will be a vector of length the chosen degree which contains the coefficients of the polynomial.
